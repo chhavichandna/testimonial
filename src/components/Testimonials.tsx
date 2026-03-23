@@ -3,118 +3,140 @@ import { Star, Linkedin, Phone } from 'lucide-react';
 export default function Testimonials() {
   const testimonials = [
     {
-      name: "Rajesh Kumar",
+      name: "Shray Arora",
       role: "Founder & CEO",
-      company: "TechVentures India",
-      image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400",
+      company: "Helium",
+      image: "https://media.licdn.com/dms/image/v2/D5622AQFQZJDSB8DzXw/feedshare-shrink_800/B56Zb300tqHoAo-/0/1747914545348?e=1775692800&v=beta&t=_epcFPMb9gYsBs4zhZRou8HYKy_xLsf78udfxatg_T8",
       rating: 5,
-      project: "E-commerce Platform Development",
-      testimonial: "Chhavi delivered an excellent e-commerce website with smooth UI and fast performance. Her communication and attention to detail were outstanding. The project was completed ahead of schedule with all features working flawlessly.",
-      linkedin: "https://.com/in/example",
-      phone: "+91 98765 43210"
+      
+      testimonial: "Chhavi is an excellent developer with strong attention to detail. She delivered high-quality work with a smooth user experience and maintained great communication throughout the process. Highly recommended!",
+      linkedin: "https://www.linkedin.com/in/shrayarora/",
+      phone: "+91 8076093907"
     },
     {
-      name: "Priya Sharma",
-      role: "Product Manager",
-      company: "Digital Solutions Hub",
-      image: "https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400",
+      name: "Soumya Grover",
+      role: "CRM Consultant & Product Strategist at EY",
+      company: "EY",
+      image: "https://media.licdn.com/dms/image/v2/D5603AQEq0D6dywb1kQ/profile-displayphoto-shrink_800_800/B56Zbf1a59H0Ag-/0/1747512046914?e=1775692800&v=beta&t=FMSKHSxyN-uv8YbHz8Go6TozmWxk5upK5aGz9pRGxKQ",
       rating: 5,
-      project: "Hotel Booking System",
-      testimonial: "Working with Chhavi was a fantastic experience. She built our hotel booking platform using the MERN stack with secure authentication and responsive design. Her expertise in React and Node.js really shows in the final product.",
-      linkedin: "https://linkedin.com/in/example",
-      phone: "+91 98123 45678"
+      
+      testimonial: "Working with Chhavi was a great experience. She is skilled, professional, and delivers clean, efficient solutions. Her ability to understand requirements and execute them perfectly is impressive.",
+      linkedin: "https://www.linkedin.com/in/soumya-grover/",
+      phone: "+91 9643002011 "
     },
     {
-      name: "Amit Patel",
-      role: "Startup Owner",
-      company: "InnovateTech",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400",
+      name: "Manan Arora",
+      role: "Head of Business & Strategic Initiatives ",
+      company: "BukuWarung",
+      image: "https://media.licdn.com/dms/image/v2/C4E03AQHn0g1E71OtyA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1594099033185?e=1775692800&v=beta&t=4K3y84pcQbHW3FQ4WyJEEOGKVKDwISzDSuL_sztQEBM",
       rating: 5,
-      project: "AI Mock Interview Platform",
-      testimonial: "Chhavi's work on our AI-powered interview platform exceeded expectations. She seamlessly integrated ChatGPT and Gemini APIs, implemented secure authentication, and created an intuitive user interface. Highly professional and skilled developer!",
-      linkedin: "https://linkedin.com/in/example",
-      phone: "+91 99887 76655"
+      
+      testimonial: "Chhavi is a highly reliable developer who consistently delivers quality work. She is proactive, detail-oriented, and ensures everything runs smoothly. Would definitely work with her again.",
+      linkedin: "https://www.linkedin.com/in/manan-arora/",
+      phone: "+91 9999643904"
     },
     {
-      name: "Sneha Reddy",
-      role: "Business Development Manager",
-      company: "WebCraft Studios",
-      image: "https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=400",
+      name: "Latika Arora",
+      role: "Motion Graphic Designer",
+      company: "Empliance Technologies ",
+      image: "https://media.licdn.com/dms/image/v2/D5603AQHSKn977pP6kQ/profile-displayphoto-shrink_800_800/B56ZSR2sAEHQAk-/0/1737613822018?e=1775692800&v=beta&t=fzgi1m3ubHR2X-vVt-BKLt088-IWBVqvs_j_gOLEkVk",
       rating: 5,
-      project: "Portfolio Website & Branding",
-      testimonial: "Chhavi created a stunning portfolio website for our agency. Her understanding of modern design principles and full-stack capabilities made the entire process smooth. She's responsive, professional, and delivers high-quality work consistently.",
-      linkedin: "https://linkedin.com/in/example",
-      phone: "+91 97654 32109"
+      
+      testimonial: "Chhavi created an amazing website experience. She is creative, responsive, and very easy to work with. Her professionalism and dedication truly stand out.",
+      linkedin: "https://www.linkedin.com/in/latikaaroraa/",
+      phone: "+91 8860029754"
     }
   ];
 
   return (
     <section id="testimonials" className="py-20 bg-gray-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        {/* HEADING */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Client Testimonials
           </h2>
           <div className="w-20 h-1 bg-teal-500 mx-auto mb-4"></div>
-          <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-            Here's what my clients say about working with me on their projects
+          <p className="text-gray-400 text-lg">
+            Here's what my clients say about working with me
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        {/* TESTIMONIALS */}
+        <div className="space-y-8">
           {testimonials.map((testimonial, index) => (
+            
             <div
               key={index}
-              className="bg-gray-900 rounded-2xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-700 hover:border-teal-500/50"
+              className="bg-gray-900 rounded-2xl p-10 shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-700 hover:border-teal-500/50"
             >
-              <div className="flex items-start gap-6 mb-6">
+              <div className="flex flex-col md:flex-row gap-6 items-center md:items-start">
+
+                {/* IMAGE */}
                 <img
                   src={testimonial.image}
                   alt={testimonial.name}
-                  className="w-20 h-20 rounded-full object-cover border-4 border-teal-500"
+                  className="w-28 h-28 md:w-32 md:h-32 rounded-full object-cover border-4 border-teal-500"
                 />
-                <div className="flex-1">
-                  <h3 className="text-xl font-bold text-white mb-1">{testimonial.name}</h3>
-                  <p className="text-teal-400 font-medium mb-1">{testimonial.role}</p>
-                  <p className="text-gray-400 text-sm">{testimonial.company}</p>
+
+                {/* CONTENT */}
+                <div className="flex-1 text-center md:text-left">
+
+                  <h3 className="text-2xl font-bold text-white">
+                    {testimonial.name}
+                  </h3>
+                  <p className="text-teal-400 font-medium">
+                    {testimonial.role}
+                  </p>
+                  <p className="text-gray-400 text-sm mb-3">
+                    {testimonial.company}
+                  </p>
+
+                  {/* STARS */}
+                  <div className="flex justify-center md:justify-start gap-1 mb-3">
+                    {[...Array(testimonial.rating)].map((_, i) => (
+                      <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
+                    ))}
+                  </div>
+
+                  <p className="text-sm text-teal-400 font-semibold mb-2">
+                    Project: {testimonial.project}
+                  </p>
+
+                  <p className="text-gray-300 leading-relaxed italic mb-4">
+                    "{testimonial.testimonial}"
+                  </p>
+
+                  {/* LINKS */}
+                  <div className="flex justify-center md:justify-start gap-6 pt-2 border-t border-gray-700">
+                    <a
+                      href={testimonial.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-gray-400 hover:text-teal-400 text-sm"
+                    >
+                      <Linkedin size={16} />
+                      LinkedIn
+                    </a>
+
+                    <a
+                      href={`tel:${testimonial.phone}`}
+                      className="flex items-center gap-2 text-gray-400 hover:text-teal-400 text-sm"
+                    >
+                      <Phone size={16} />
+                      {testimonial.phone}
+                    </a>
+                  </div>
+
                 </div>
               </div>
-
-              <div className="flex gap-1 mb-4">
-                {[...Array(testimonial.rating)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
-                ))}
-              </div>
-
-              <div className="mb-6">
-                <p className="text-sm text-teal-400 font-semibold mb-2">Project: {testimonial.project}</p>
-                <p className="text-gray-300 leading-relaxed italic">
-                  "{testimonial.testimonial}"
-                </p>
-              </div>
-
-              <div className="flex flex-wrap gap-4 pt-4 border-t border-gray-700">
-                <a
-                  href={testimonial.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-gray-400 hover:text-teal-400 transition-colors text-sm"
-                >
-                  <Linkedin size={16} />
-                  <span>LinkedIn</span>
-                </a>
-                <a
-                  href={`tel:${testimonial.phone}`}
-                  className="flex items-center gap-2 text-gray-400 hover:text-teal-400 transition-colors text-sm"
-                >
-                  <Phone size={16} />
-                  <span>{testimonial.phone}</span>
-                </a>
-              </div>
             </div>
+
           ))}
         </div>
 
+        {/* CTA */}
         <div className="text-center mt-12">
           <div className="inline-block bg-gray-900 rounded-xl p-8 border border-gray-700">
             <p className="text-gray-300 text-lg mb-4">
@@ -131,6 +153,7 @@ export default function Testimonials() {
             </button>
           </div>
         </div>
+
       </div>
     </section>
   );

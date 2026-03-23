@@ -25,15 +25,11 @@ export default function Navbar() {
               <button onClick={() => scrollToSection('home')} className="text-gray-300 hover:text-teal-400 transition-colors px-3 py-2 text-sm font-medium">
                 Home
               </button>
-              <button onClick={() => scrollToSection('about')} className="text-gray-300 hover:text-teal-400 transition-colors px-3 py-2 text-sm font-medium">
-                About
-              </button>
+              
               <button onClick={() => scrollToSection('testimonials')} className="text-gray-300 hover:text-teal-400 transition-colors px-3 py-2 text-sm font-medium">
                 Testimonials
               </button>
-              <button onClick={() => scrollToSection('projects')} className="text-gray-300 hover:text-teal-400 transition-colors px-3 py-2 text-sm font-medium">
-                Projects
-              </button>
+              
               <button onClick={() => scrollToSection('contact')} className="text-gray-300 hover:text-teal-400 transition-colors px-3 py-2 text-sm font-medium">
                 Contact
               </button>
@@ -57,15 +53,11 @@ export default function Navbar() {
             <button onClick={() => scrollToSection('home')} className="text-gray-300 hover:text-teal-400 block px-3 py-2 text-base font-medium w-full text-left">
               Home
             </button>
-            <button onClick={() => scrollToSection('about')} className="text-gray-300 hover:text-teal-400 block px-3 py-2 text-base font-medium w-full text-left">
-              About
-            </button>
+            
             <button onClick={() => scrollToSection('testimonials')} className="text-gray-300 hover:text-teal-400 block px-3 py-2 text-base font-medium w-full text-left">
               Testimonials
             </button>
-            <button onClick={() => scrollToSection('projects')} className="text-gray-300 hover:text-teal-400 block px-3 py-2 text-base font-medium w-full text-left">
-              Projects
-            </button>
+            
             <button onClick={() => scrollToSection('contact')} className="text-gray-300 hover:text-teal-400 block px-3 py-2 text-base font-medium w-full text-left">
               Contact
             </button>

@@ -57,21 +57,13 @@ export default function Footer() {
                   Home
                 </button>
               </li>
-              <li>
-                <button onClick={() => scrollToSection('about')} className="text-gray-400 hover:text-teal-400 transition-colors">
-                  About
-                </button>
-              </li>
+              
               <li>
                 <button onClick={() => scrollToSection('testimonials')} className="text-gray-400 hover:text-teal-400 transition-colors">
                   Testimonials
                 </button>
               </li>
-              <li>
-                <button onClick={() => scrollToSection('projects')} className="text-gray-400 hover:text-teal-400 transition-colors">
-                  Projects
-                </button>
-              </li>
+              
               <li>
                 <button onClick={() => scrollToSection('contact')} className="text-gray-400 hover:text-teal-400 transition-colors">
                   Contact
@@ -103,7 +95,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-400 text-sm text-center md:text-left">
-              © 2025 Chhavi Chandna. All rights reserved.
+              © 2025 Chhavi Chandna.
             </p>
             <p className="text-gray-400 text-sm flex items-center gap-2">
               Built with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> using React & Tailwind CSS
