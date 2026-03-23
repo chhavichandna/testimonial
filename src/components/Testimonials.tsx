@@ -15,8 +15,8 @@ export default function Testimonials() {
     },
     {
       name: "Soumya Grover",
-      role: "CRM Consultant & Product Strategist at EY",
-      company: "EY",
+      role: "Social Media Marketer",
+      company: "ARISE- Association of Rising and Inspiring Syndicate of Entrepreneurs",
       image: "https://media.licdn.com/dms/image/v2/D5603AQEq0D6dywb1kQ/profile-displayphoto-shrink_800_800/B56Zbf1a59H0Ag-/0/1747512046914?e=1775692800&v=beta&t=FMSKHSxyN-uv8YbHz8Go6TozmWxk5upK5aGz9pRGxKQ",
       rating: 5,
       
