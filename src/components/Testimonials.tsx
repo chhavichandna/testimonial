@@ -25,7 +25,7 @@ export default function Testimonials() {
       phone: "+91 9643002011 "
     },
     {
-      name: "Manan Arora",
+      name: "Manan ",
       role: "Head of Business & Strategic Initiatives ",
       company: "BukuWarung",
       image: "https://media.licdn.com/dms/image/v2/C4E03AQHn0g1E71OtyA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1594099033185?e=1775692800&v=beta&t=4K3y84pcQbHW3FQ4WyJEEOGKVKDwISzDSuL_sztQEBM",
@@ -50,15 +50,15 @@ export default function Testimonials() {
 
   return (
     <section id="testimonials" className="py-20 bg-gray-800">
-      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
         
         {/* HEADING */}
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+        <div className="mb-16 text-center">
+          <h2 className="mb-4 text-4xl font-bold text-white md:text-5xl">
             Client Testimonials
           </h2>
-          <div className="w-20 h-1 bg-teal-500 mx-auto mb-4"></div>
-          <p className="text-gray-400 text-lg">
+          <div className="w-20 h-1 mx-auto mb-4 bg-teal-500"></div>
+          <p className="text-lg text-gray-400">
             Here's what my clients say about working with me
           </p>
         </div>
@@ -69,15 +69,15 @@ export default function Testimonials() {
             
             <div
               key={index}
-              className="bg-gray-900 rounded-2xl p-10 shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-700 hover:border-teal-500/50"
+              className="p-10 transition-all duration-300 bg-gray-900 border border-gray-700 shadow-xl rounded-2xl hover:shadow-2xl hover:border-teal-500/50"
             >
-              <div className="flex flex-col md:flex-row gap-6 items-center md:items-start">
+              <div className="flex flex-col items-center gap-6 md:flex-row md:items-start">
 
                 {/* IMAGE */}
                 <img
                   src={testimonial.image}
                   alt={testimonial.name}
-                  className="w-28 h-28 md:w-32 md:h-32 rounded-full object-cover border-4 border-teal-500"
+                  className="object-cover border-4 border-teal-500 rounded-full w-28 h-28 md:w-32 md:h-32"
                 />
 
                 {/* CONTENT */}
@@ -86,35 +86,35 @@ export default function Testimonials() {
                   <h3 className="text-2xl font-bold text-white">
                     {testimonial.name}
                   </h3>
-                  <p className="text-teal-400 font-medium">
+                  <p className="font-medium text-teal-400">
                     {testimonial.role}
                   </p>
-                  <p className="text-gray-400 text-sm mb-3">
+                  <p className="mb-3 text-sm text-gray-400">
                     {testimonial.company}
                   </p>
 
                   {/* STARS */}
-                  <div className="flex justify-center md:justify-start gap-1 mb-3">
+                  <div className="flex justify-center gap-1 mb-3 md:justify-start">
                     {[...Array(testimonial.rating)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
+                      <Star key={i} className="w-5 h-5 text-yellow-400 fill-yellow-400" />
                     ))}
                   </div>
 
-                  <p className="text-sm text-teal-400 font-semibold mb-2">
+                  <p className="mb-2 text-sm font-semibold text-teal-400">
                     Project: {testimonial.project}
                   </p>
 
-                  <p className="text-gray-300 leading-relaxed italic mb-4">
+                  <p className="mb-4 italic leading-relaxed text-gray-300">
                     "{testimonial.testimonial}"
                   </p>
 
                   {/* LINKS */}
-                  <div className="flex justify-center md:justify-start gap-6 pt-2 border-t border-gray-700">
+                  <div className="flex justify-center gap-6 pt-2 border-t border-gray-700 md:justify-start">
                     <a
                       href={testimonial.linkedin}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-2 text-gray-400 hover:text-teal-400 text-sm"
+                      className="flex items-center gap-2 text-sm text-gray-400 hover:text-teal-400"
                     >
                       <Linkedin size={16} />
                       LinkedIn
@@ -122,7 +122,7 @@ export default function Testimonials() {
 
                     <a
                       href={`tel:${testimonial.phone}`}
-                      className="flex items-center gap-2 text-gray-400 hover:text-teal-400 text-sm"
+                      className="flex items-center gap-2 text-sm text-gray-400 hover:text-teal-400"
                     >
                       <Phone size={16} />
                       {testimonial.phone}
@@ -137,9 +137,9 @@ export default function Testimonials() {
         </div>
 
         {/* CTA */}
-        <div className="text-center mt-12">
-          <div className="inline-block bg-gray-900 rounded-xl p-8 border border-gray-700">
-            <p className="text-gray-300 text-lg mb-4">
+        <div className="mt-12 text-center">
+          <div className="inline-block p-8 bg-gray-900 border border-gray-700 rounded-xl">
+            <p className="mb-4 text-lg text-gray-300">
               Interested in working together?
             </p>
             <button
@@ -147,7 +147,7 @@ export default function Testimonials() {
                 const element = document.getElementById('contact');
                 if (element) element.scrollIntoView({ behavior: 'smooth' });
               }}
-              className="bg-teal-500 hover:bg-teal-600 text-white px-8 py-3 rounded-lg font-semibold transition-all transform hover:scale-105 shadow-lg hover:shadow-teal-500/50"
+              className="px-8 py-3 font-semibold text-white transition-all transform bg-teal-500 rounded-lg shadow-lg hover:bg-teal-600 hover:scale-105 hover:shadow-teal-500/50"
             >
               Get In Touch
             </button>
